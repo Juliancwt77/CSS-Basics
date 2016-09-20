@@ -1,4 +1,28 @@
 
 h2 {
   color: #e45122;
+
+}
+
+p{    font-size: 30px;
+      text-decoration: overline;
+
+}
+
+#primary { color: red;
+
+}
+
+.green {color: green;
+
+}
+
+/* first nesting method - direct descandent*/
+li > li {
+        color: red;
+
+/*second nesting method - descandant*/
+}
+li li {
+    color: blue;
 }
